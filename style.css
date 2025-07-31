@@ -1,0 +1,53 @@
+body {font-family: Arial, sans-serif;
+    background-color: #ff00f2;
+}
+
+header {
+    background-color: #ffffff;
+    color: #ff00f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #ff00bf, #ff00bf);
+    padding: 50px;
+    text-align: center;
+}
+
+.hero img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.ballery {
+    padding: 50px
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photos img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
